@@ -1,0 +1,18 @@
+{
+    "integrity": "sha256-g29zNhYm5yAA+4UovoQqJd/yrEy7ghrrXWgLJB/o5b8=",
+    "strip_prefix": "googleapis-master",
+    "url": "https://github.com/googleapis/googleapis/archive/master.zip",
+    "patch_strip": 0,
+    "patches": {
+        "module_dot_bazel.patch": "sha256-NFwfHpzMpmKsT37yDtmI6Aj3OYFbHoX8Kznko0DxTag=",
+        "remove_upb_c_rules.patch": "sha256-MmXB+YzXhG05hDbVgw5S/VZRgu4b2qjQl0OHVEEtP7Y="
+    },
+    "overlay": {
+        "MODULE.bazel": "sha256-5Tlj1bukdIZ2imO7vSibuodCtXr/LJ+6ypNeFpE2KkM=",
+        "extensions.bzl": "sha256-59FkoqrMX/a/7t3zkSLDmMkuGnajSeOoZI4FZFIwEuw=",
+        "tests/bcr/.bazelrc": "sha256-hFZT+gits3VtXcUkKuh3NCEC9FgBNGuNxaOVCuOiFPk=",
+        "tests/bcr/BUILD.bazel": "sha256-KZzDURLUNDOiMsurUHrnuWYogHPFs7W+Ar9ZrilPLuE=",
+        "tests/bcr/MODULE.bazel": "sha256-4zmBG1uAn7W3ExjUMQChBcrJVSNCE6K8PhIs9SfKy1U=",
+        "tests/bcr/failure_test.bzl": "sha256-AJLzf7NfQOLpWbNIR3TIU28tQMSjd3svlAgh4yCoXm8="
+    }
+}
