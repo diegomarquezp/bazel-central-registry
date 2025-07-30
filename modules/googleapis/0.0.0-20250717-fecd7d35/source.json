@@ -1,0 +1,18 @@
+{
+    "integrity": "sha256-VEt6By4W/AaXFtpQHg51L4rrbVYrFNziZPlUTi8VD4U=",
+    "strip_prefix": "googleapis-fecd7d35f46753b45bf4519f6342495a181740c9",
+    "url": "https://github.com/googleapis/googleapis/archive/fecd7d35f46753b45bf4519f6342495a181740c9.zip",
+    "patch_strip": 0,
+    "patches": {
+        "module_dot_bazel.patch": "sha256-5N99dBOI6T4teetu2+Iu46FfFWDlRHyVgVgRWyCNgXs=",
+        "remove_upb_c_rules.patch": "sha256-MmXB+YzXhG05hDbVgw5S/VZRgu4b2qjQl0OHVEEtP7Y="
+    },
+    "overlay": {
+        "MODULE.bazel": "sha256-3da9BWwG/UOHz4IixJYZxjhYaZuI3GcCKxUFAsPPYuk=",
+        "extensions.bzl": "sha256-59FkoqrMX/a/7t3zkSLDmMkuGnajSeOoZI4FZFIwEuw=",
+        "tests/bcr/.bazelrc": "sha256-hFZT+gits3VtXcUkKuh3NCEC9FgBNGuNxaOVCuOiFPk=",
+        "tests/bcr/BUILD.bazel": "sha256-KZzDURLUNDOiMsurUHrnuWYogHPFs7W+Ar9ZrilPLuE=",
+        "tests/bcr/MODULE.bazel": "sha256-4zmBG1uAn7W3ExjUMQChBcrJVSNCE6K8PhIs9SfKy1U=",
+        "tests/bcr/failure_test.bzl": "sha256-AJLzf7NfQOLpWbNIR3TIU28tQMSjd3svlAgh4yCoXm8="
+    }
+}
